@@ -1,0 +1,66 @@
+Guía trabajo práctico 2: Sergio Dmyterko
+
+
+1_ instalar git 
+
+https://git-scm.com/downloads
+abrir el ejecutable y seguir los pasos predeterminados de instalacion
+
+2- abrir CMD y ejecutar 
+git --version
+(nos dice la version instalada en Windwos)
+
+
+luego vamos a configurar tu nombre y correo
+
+git config --global user.name "Sergiodmy"
+git config --global user.email "Sergiodmyterko@gmail.com"
+
+creamos una carpeta en el directorio c , con el nombre por ej:  mi-primer-repositorio-git-argpro
+
+y creamos un archivo de ejemplo (index.html)
+
+Ejecutamos el comando :  git init   (para vincular nuestra carpeta local al repositorio)
+se creara automaticamente una carpeta oculta en nuetro directorio  (que indica que es un repo de git)
+
+vamos a escribri  git add .
+
+-----------------------------
+despues escribimos git status
+ y nos informa que index.html dejo de ser un archivo sin rastreo, y es un cambio
+que debemos guardar
+
+----------------------------
+ahora vamos a escribir el comando
+
+git commit -m "primer commit"
+
+----------------------------
+
+Luego vamos a github
+https://github.com/ 
+
+sign up
+nos logueamos
+
+Vamos a nuestro perfil
+
+Opcion repositorios
+
+Nuevo repositorio 
+
+Crear
+
+Luego vamos a git y escribimos en linea de comandos
+
+git remote add origin https://github.com/SerDmy91/mi-primer-repositorio-git-argpro.git
+
+una vez conectados el local con el remoto
+vamos a subir los cambios a github
+
+git push origin master (vamos a subir nuestra rama master (principal) a nuestro repo de github)
+
+autenticamos en github (si esta instalado)
+
+y de esta forma creamos nuestro repositorio
+

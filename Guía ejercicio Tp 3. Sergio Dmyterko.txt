@@ -1,0 +1,76 @@
+Guía ejercicio Tp 3. Sergio Dmyterko
+
+
+1.a_
+
+public class Array1 {
+    public static void main(String args[]) {
+        int numeros[] = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+ 	  int i;
+
+        for(i=0; i<15; i++)
+        {
+            System.out.println(numeros[i]);
+        }
+    }
+
+}
+
+
+b_
+
+public class Array2 {
+    public static void main(String args[]) {
+        int numeros[] = new int[]{1,2,3,4,5,6,7,8,9,10};
+ 	  int i;
+
+        for(i=0; i<10; i++)
+        {
+            System.out.println(numeros[6]+5);
+        }
+    }
+
+}
+
+c_
+
+public class Array3 {
+    public static void main(String args[]) {
+        int numeros[] = new int[]{1,2,3,4,5,6,7,8,9,10};
+ 	  int i;
+
+        {
+            System.out.println(numeros[6]/3);
+        }
+    }
+
+}
+
+d_
+public class Productos4 {
+	 public static void main(String[]args){ 
+		 String componentes []={"Mother", "Microprocesador","Memoria","SSD","Gabinete Kit"};
+		 int precios[]={31000,72000,13990,15990,12400,17990};
+		 	System.out.println("Lista de Componentes y sus precios");
+		 		for (int c=0;c<componentes.length;c++){
+		 			System.out.println("Componente " + componentes[c] + " Precio: $"+ precios[c]); 
+		 		} 
+	 		}
+	 }
+
+e_
+
+public class Cursos5 {
+	 public static void main(String args[]) {
+	 String cursos []={"Mátematica", "Lengua","Geografía"}; 
+	 int notas []={8,9,6};
+	 	System.out.println("Promedio de Cursos");
+	 	System.out.println("Notas Finales");
+	 	System.out.println("----------");
+	 int nn=(notas[0]+notas[1]+notas[2])/3;
+	 	for (int c=0;c<cursos.length;c++){
+	 		System.out.println(cursos[c] + " "+notas[c]);  } System.out.println("Su Promedio es : " + nn);
+	  	}
+	 }
+
+
